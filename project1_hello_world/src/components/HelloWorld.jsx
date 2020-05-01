@@ -1,7 +1,10 @@
 import React from  'react';
 
-function helloWorld(prop){
-    return <h1>Hello World! {prop.name}</h1>
+function helloWorld(props){
+    return <>
+    <h1>Hello World! {props.text}</h1>
+    </>
+
 }
 
 export default helloWorld;
